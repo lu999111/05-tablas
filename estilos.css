@@ -1,3 +1,28 @@
-main img{
-    width: 90px;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Quicksand:wght@300&display=swap');
+tr{
+    font-family: 'Quicksand', sans-serif;
+}
+table img{
+    width: 100px;
+    padding: 10px;
+}
+main{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+table{
+    margin: auto;
+}
+a{
+    display: inline-block;
+    padding-right: 30px;
+}
+table{
+    border: 1px solid black;
+}
+td{
+    border-bottom: 1px solid black;
+}
+tr:hover{
+    background-color: rgb(184, 184, 184);
 }
